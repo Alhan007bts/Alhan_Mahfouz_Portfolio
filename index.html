@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alhan Mahfouz - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Alhan Mahfouz</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="flexbox-projects.html">Projects</a></li>
+                <li><a href="grid-gallery.html">Gallery</a></li>
+                <li><a href="bootstrap-resume.html">Resume</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#school">School Life</a></li>
+                <li><a href="#work">Work Experience</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <img class="profile-photo" src="my_picture.jpg" alt="Picture of Alhan Mahfouz" width="200" height="200">
+        <p>Hello! My name is Alhan Mahfouz. I am a student at <strong>Algonquin College</strong>, pursuing a degree in <mark>Computer Engineering Technology - Computer Science</mark>. My program has a focus on programming, networking, building websites and many technology topics.</p>
+        <p>I've always appreciated technology and how it can make our lives easier. This passion has driven me to explore various aspects of computer science and engineering.</p>
+        <p>What makes me unique is my dedication to continuous learning and the combination of <em>technical skills</em> and <em>problem-solving</em> approach.</p>
+        <p>I am excited about the future and the opportunities that lie ahead in the field of technology. And I believe that the best way to create technology is to understand the human needs.</p>
+        <blockquote>"Technology is important because it creates the future. We're able to be a part of the "next" and create things that don't exist".
+            <cite>- MC Hammer</cite>
+        </blockquote>
+    </section>
+
+    <article id="school">
+        <h2>School Life</h2>
+        <p>I'm currently pursuing my <abbr title="Bachelor of Science">B.S.</abbr> in Computer Science. This program has provided me with a solid foundation in various areas of computer science, including programming, networking, and web development.</p>
+        <p>One of the most interesting courses I've taken so far is <strong>Web Programming</strong>, where I learned how to create dynamic and responsive websites using HTML, CSS, and JavaScript. I also enjoyed the <strong>Networking</strong> course, which taught me about network protocols, security, and administration.</p>
+        <table>
+            <caption>Current Course Schedule</caption>
+                <tr>
+                    <th>Course Code</th>
+                    <th>Course Name</th>
+                    <th>Instructor</th>
+                </tr>
+                <tr>
+                    <td>CST8238</td>
+                    <td>Web Programming</td>
+                    <td>Abul Qasim & Hala Own</td>
+                </tr>
+                <tr>
+                    <td>CST8130</td>
+                    <td>Data Structures</td>
+                    <td>James Mwangi & Amir Afrasiabi</td>
+                </tr>
+                <tr>
+                    <td>CST8216</td>
+                    <td>Processor Architecture</td>
+                    <td>Yuan Hwang</td>
+                </tr>
+                <tr>
+                    <td>CST8234</td>
+                    <td>C Language</td>
+                    <td>Surbhi Bahri</td>
+                </tr>
+                <tr>
+                    <td>GEP2001</td>
+                    <td>Co-op Job Search 1</td>
+                    <td>Phillip Davidson</td>
+                </tr>
+        </table>
+    </article>
+
+    <section id="work">
+            <h2>Work Experience</h2>
+            <p>As of now, I don't have any work experience yet. Hopefully I'll get a co-op job this year and it will help me find more jobs in the future.</p>
+   
+            <aside>
+            <h3>Professional Development</h3>
+            <p>While I don't have professional work experience yet, I've been developing my skills through personal projects and coursework. I'm particularly interested in web development and networking technologies.</p>
+        </aside>
+        </section>
+
+    <section id="hobbies">
+            <h2>Hobbies and Interests</h2>
+            <ul>
+                <li><strong>Going Out:</strong> I enjoy going out in nature, take pictures and have peace.</li>
+                <li><strong>Drawing:</strong> I enjoy drawing, I'm not a professional but i like it, it makes me less stressed.</li>
+                <li><strong>Reading:</strong> I enjoy reading books. It doesn't matter what the topic is or the story line as long as it's not boring.</li>
+                <li><strong>Listening to Music:</strong> Listening to music makes me relaxed, less stressed, and less anxious.</li>
+            </ul>
+            <div>
+            <video width="200" height="200" controls>
+                <source src="my_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            </div>
+
+            <div>
+            <audio controls>
+                <source src="Blue & Grey.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form action="#" method="post">
+            <div>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            </div>
+
+            <div>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+            <label for="phone">Phone Number (optional):</label>
+            <input type="tel" id="phone" name="phone">
+            </div>
+
+            <div>
+            <label for="contact_method">Preferred Contact Method:</label>
+            <select id="contact_method" name="contact_method">
+                <option value="email" selected>Email</option>
+                <option value="phone">Phone</option>
+            </select>
+            </div>
+
+            <div>
+            <label for="reason">Reason for Contact:</label>
+            <select id="reason" name="reason">
+                <option value="job" selected>Job Opportunity</option>
+                <option value="collab">Collaboration</option>
+                <option value="other">Other</option>
+            </select>
+            </div>
+
+            <div>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <button class="form-button" type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Alhan Mahfouz. All rights reserved.</p>
+        <p>Email: mahf0052@algonquinlive.com | Phone: (613) 501-1885 | Ottawa, ON</p>
+        <p> Connect with me:
+            <a href="https://www.linkedin.com/in/alhan-mahfouz-4a7ab4356/" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
+
+    </body>
+</html>
